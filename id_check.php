@@ -1,8 +1,8 @@
 //da utilizzare se si cerca un ID
  
 function check_cart_info() {
-    ?>
-        <script>
+?>
+    <script>
 
  
     const cart_id = document.getElementById('cart-icon')  //<- change here the element id where there's the cart icon
@@ -22,10 +22,8 @@ function check_cart_info() {
         }
  
     }
- 
-</script>
-        </script>
-    <?php
+    </script>
+<?php
 }
 add_action('wp_footer', 'check_cart_info');
 
